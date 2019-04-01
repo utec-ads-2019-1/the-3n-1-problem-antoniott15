@@ -2,13 +2,14 @@
 #include <algorithm>
 using namespace std;
 
-void maxValue(int count, int temp)
+void maxValue(int count)
 {
     int temp;
     if (count > temp)
     {
         temp = count;
     }
+    cout << temp << endl;
 }
 void Logic(int MaxNumber, int MinNumber)
 {
@@ -50,6 +51,5 @@ int main()
     MaxNumber = MaxNumberFunc(input, input2);
     MinNumber = MinNumberFunc(input, input2);
     Logic(MaxNumber, MinNumber);
-    cout << temp;
     return 0;
 }
